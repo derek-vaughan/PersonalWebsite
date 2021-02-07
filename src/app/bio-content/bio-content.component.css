@@ -1,0 +1,61 @@
+.container{
+    font-family: 'Roboto', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px; 
+  }
+  
+  .row{
+    padding-top: 50px;
+  }
+
+  .container-image-right-one{
+    display: block;
+    margin: 0 auto;
+    height: 350px; 
+  }
+
+  .container-image-left-one{
+    display: block;
+    margin: 0 auto;
+    height: 290px; 
+    margin-top: 25px;
+  }
+
+  .container-image-right-two{
+    display: block;
+    margin: 0 auto;
+    height: 290px; 
+    margin-top: 50px;
+  }
+
+  /* Fix title content on small screens */
+@media screen and (min-device-width : 575px){
+  .container-image-left-one{
+    display: block;
+    margin: 0 auto;
+    height: 300px; 
+    margin-top: 20px;
+  }
+}
+
+/* Make images responsive on small screens */
+@media screen and (max-device-width : 370px){
+  .container-image-right-one, .container-image-left-one, .container-image-right-two{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-device-width : 370px){
+  .container-image-right-two{
+    margin-top: 10px;
+  }
+}
+
+.row-bottom{
+  text-align: center;
+  padding-top: 85px;
+  height: 150px;
+}

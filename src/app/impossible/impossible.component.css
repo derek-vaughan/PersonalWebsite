@@ -1,0 +1,41 @@
+.container{
+    font-family: 'Roboto', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px; 
+  }
+  
+  .row{
+    padding-top: 50px;
+  }
+
+  .page-heading{
+      text-align: center;
+      font-size: 50px;
+  }
+
+  .page-heading-subtitle{
+      text-align: center;
+      font-size: 20px;
+  }
+
+  .page-heading-subtitle-two{
+    text-align: center;
+    font-size: 18px;
+}
+
+  .goal-bullet{
+    font-size: 18px;
+  }
+
+  .goal-subbullet{
+    font-size: 18px;
+    text-indent: 50px;
+    margin-top: -15px;
+  }
+
+  .goal-subbullet-two{
+    font-size: 18px;
+    text-indent: 100px;
+    margin-top: -15px;
+  }
